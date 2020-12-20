@@ -73,3 +73,9 @@ h1 {
   padding: 0.3rem 1rem;
   border-radius: 20px;
 }
+
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
